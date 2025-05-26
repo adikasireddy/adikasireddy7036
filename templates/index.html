@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADIKASIREDDY - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>THAMMINENI ADIKASIREDDY</h1>
+    <p>B.Tech (CSE - IOT) Student | Web Developer | ML Enthusiast</p>
+    <nav>
+      <ul>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section class="intro">
+      <h2>Hello, I'm THAMMINENI ADIKASIREDDY</h2>
+      <p>I’m Adi Kasireddy, a B.Tech CSE (IoT) student with expertise in Web Development, Machine Learning, and IoT-based 
+        smart systems. I’ve built and deployed real-time applications like smart home automation, face recognition attendance 
+        systems, and leaf disease detection using ML. My skill set includes HTML, CSS, JavaScript, Python, WordPress, OpenCV, 
+        and Arduino. I focus on creating impactful, tech-driven solutions with clean design, responsive UI, and intelligent
+         functionality.</p>
+      <button onclick="document.location='https://ibb.co/HLy0N60k'">Resume</button> 
+      <button onclick="document.location='https://github.com/adikasireddy'">Github</button> 
+      <button onclick="document.location='https://www.linkedin.com/in/adi-kasi-reddy-thammineni-8a61b3275/'">Linkedin</button> 
+    </section>
+    <img src="{{ url_for('static', filename='images/adi.jpg')}} ">
+  </main>
+
+  <!-- Projects Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/face.jpeg')}} ">
+        <h3>Face Recognition Attendance System</h3>
+        <p><strong>Skills:</strong> Python, OpenCV, ML</p>
+        <a href="https://github.com/adikasireddy/face-recognition">
+          <button >View Project</button>
+        </a>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/soltair.jpg')}} ">
+        <h3>Solitaire Solutions Website</h3>
+        <p><strong>Skills:</strong> HTML, CSS, WordPress</p>
+        <a href="https://apexcropgenetics.com/">
+          <button >View Project</button>
+        </a>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/APEX.png')}} ">
+        <h3>Apex Crop Genetics Website</h3>
+        <p><strong>Skills:</strong> WordPress, SEO, PHP</p>
+        <a href="https://apexcropgenetics.com/">
+          <button >View Project</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Skills</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/frent-end.jpeg')}} ">
+        <h3>Front-End Development</h3>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/ml.png')}} ">
+        <h3>Programming</h3>
+        <p><strong>Skills:</strong> Python, ML, Git</p>
+
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/wordpress.jpg')}} ">
+        <h3>CMS Development</h3>
+        <p><strong>Skills:</strong> WordPress, Elementor, Plugins</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Top Certifications</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/codethantra.png')}} ">
+        <h3>Python Programming</h3>
+        <p><strong>Platform:</strong> CodeTantra</p>
+        <button onclick="document.location='https://ibb.co/cKrw01f2'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/python.png')}} ">
+        <h3>Python (Basic)</h3>
+        <p><strong>Platform:</strong> HackerRank</p>
+        <button onclick="document.location='https://ibb.co/4g7XmQFZ'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/webthon.jpg')}} ">
+        <h3>Webathon</h3>
+        <p><strong>Platform:</strong> VR Siddhartha College</p>
+        <button onclick="document.location='https://ibb.co/7dsrZR86'">View Certificate</button>
+      </div>
+    </div>
+
+
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/eduino robots.png')}} ">
+        <h3>Smart Home Technology using IoT</h3>
+        <p><strong>Platform:</strong> Eduno Robots</p>
+        <button onclick="document.location='https://ibb.co/gbx8V3tk'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/supraja.png')}} ">
+        <h3>Cyber Security(Level 1)</h3>
+        <p><strong>Platform:</strong> Supraja Technologies</p>
+        <button onclick="document.location='https://ibb.co/SD3CBphg'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/intern_comp.png')}} ">
+        <h3> Interactive Web Applications with DEVOPS,</h3>
+        <p><strong>Platform:</strong> Swecha Andhra Pradesh</p>
+        <button onclick="document.location='https://ibb.co/Z1WBs390'"> View Certificate</button>
+      </div>
+    </div>
+        <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/emp.jpg')}} ">
+        <h3>JobReady Employability Skills</h3>
+        <p><strong>Platform:</strong> Andhra Pradesh State Skill Development Corporation</p>
+        <button onclick="document.location='https://ibb.co/xSBWNj2p'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blue_offer.jpg')}} ">
+        <h3>Internship Offer Letter</h3>
+        <p><strong>Platform:</strong>Bluestock Fintech</p>
+        <button onclick="document.location='https://ibb.co/DDNp1xQM'">View Certificate</button>
+      </div>
++
+    </div>
+    
+  </section>
+
+  <!-- Education Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Education</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/pscmr.jpeg')}} ">
+        <h3>B.Tech – CSE (IoT)</h3>
+        <p><strong>Institute:</strong> PSCMR College of Engineering & Tech</p>
+        <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
+
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/inter.jpg')}} ">
+        <h3>Intermediate – MPC</h3>
+        <p><strong>Institute:</strong> A.P.S.W.R.S Junior College</p>
+        <p><strong>Location:</strong> Nizampatnam,Andhra Pradesh</p>
+
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/10.jpeg')}} ">
+        <h3>10th Standard</h3>
+        <p><strong>School:</strong> Living Hope International School</p>
+        <p><strong>Location:</strong> Kotappakonda ,Andhra Pradesh</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-nav">
+
+    </div>
+    <p>&copy; 2025 Adi Kasireddy. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
