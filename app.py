@@ -6,21 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/")
-def projects():
-    return render_template("projects.html")
-
-@app.route("/")
-def education():
-    return render_template("education.html")
-
-@app.route("/")
-def certificates():
-    return render_template("certificates.html")
-
-@app.route("/")
-def contact():
-    return render_template("Contact.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host-'0.0.0.0',debug=True)
